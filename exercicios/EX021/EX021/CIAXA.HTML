@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caixa</title>
+    <style>
+body {
+    background-image: linear-gradient(to right, rgb(11, 117, 215), rgba(7, 42, 83, 0.696), rgba(9, 164, 211, 0.641));
+}
+h1 {
+  background-color: rgba(22, 133, 107, 0.34);
+    height: 38px;
+   width: 365px;
+   
+border:2px solid black;
+
+
+padding: 8px 4px 8px 4px;
+
+margin: auto;
+outline-width: 10px;
+outline-style: solid;
+outline-color: blueviolet;
+box-shadow: 10px 12px 20px black;
+
+color: rgb(8, 66, 87);
+
+}
+
+a {
+    color: brown;
+    border-width: 3px;
+    border-color: rgba(0, 0, 0, 0.644);
+    border-style: solid;
+    margin: auto;
+    box-shadow:3px -1px 4px blue;
+
+   
+
+}
+a::after {
+    content:"🔗";
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: aqua;
+}
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p><a href="https://www.youtube.com/@cursoemvideo" target="_blank">youtube</a></p>
+</body>
+</html>

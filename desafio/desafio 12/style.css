@@ -1,0 +1,70 @@
+@chaset "UTF-8";
+
+main {
+background-color: white;
+    
+
+    
+}
+main>p {
+background-color: white;
+
+
+}
+.barco>p {
+  background-color: rgba(0, 0, 0, 0.255);
+    color: white;
+    width: 125px;
+    height: 100px;
+    padding: 21px 15px 69px 10px;
+    
+  background-image: url("baeco.webp");
+  width: auto;
+
+
+}
+header {
+ background-color: black;
+ color: white;
+ padding: 10px 10px 10px 10px ;
+ width: 100%;
+ text-align: center;
+margin: 0%;
+
+
+}
+.todo {
+max-width: 800px;
+min-width: 300px;
+
+
+}
+.pag {
+ color: black;
+
+
+
+}
+.pagra {
+background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 125px;
+    height: 100px;
+    padding: 21px 15px 69px 10px;
+    margin: 25px 13px 59px 24px;
+
+
+
+}
+main>p{
+background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 125px;
+    height: 100px;
+    padding: 21px 15px 69px 10px;
+    margin: 25px 13px 59px 24px;
+
+
+
+
+}
